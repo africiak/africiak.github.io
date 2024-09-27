@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Food website</title>
+</head>
+
+<body id="home">
+    <header className="bg-[#fff]">
+        <div className="w-full flex items-center justify-between ">
+            <div className="pl-8">
+                <nav>
+                    <div class="logo">
+                        Foodyy.
+                    </div>
+                    <div>
+                        <ul class="nav-list">
+                            <li>
+                                <a href="#home" aria-label="Home">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#Aboutus" aria-label="About us">
+                                    About us
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#contacts" aria-label="Contact us">
+                                    Contact Us
+                                </a>
+                            </li>
+                            <li>
+                                <a href="recepies.html" aria-label="Recepies">
+                                    Recepies
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="logout.html"><button aria-label="logout" class="logout">Logout</button></a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <br>
+    <div class="flex">
+        <div class="intro-container" style="padding-left: 20px;">
+            <h1>
+                Fresh flavours <br>
+                Delicious Cuisine
+            </h1>
+            <br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis nulla, dignissimos possimus beatae
+                culpa dolore qui voluptatem inventore esse eius blanditiis, vel necessitatibus!</p>
+            <br><br>
+            <a href="recepies.html"><button aria-label="button redirecting to a page with recepies"
+                    class="recipies">Recipies</button></a>
+        </div>
+        <div class="image">
+            <img src="img/food1.jpg" alt="a soup dish with a side of asparagus" width="500" height="600">
+        </div>
+    </div>
+    <div class="band">
+        <h2>Recipies</h2>
+        <div class="band-container">
+            <div>
+                10 <br>
+                Breakfast
+            </div>
+            <div class="div">
+                15 <br>
+                Lunch
+            </div>
+            <div>
+                20 <br>
+                Dinner
+            </div>
+        </div>
+    </div>
+    <div class="flex" style="margin-top:40px; margin-bottom:40px; padding-left: 20px;" id="Aboutus">
+        <div class="image">
+            <img src="img/about.jpg" alt="a meat dish with a side of broccoli veggetables" width="500" height="400">
+        </div>
+        <div class="about-container">
+            <h1 style="color: black;">
+                About Us
+            </h1>
+            <br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis nulla, dignissimos possimus beatae
+                culpa dolore qui voluptatem inventore esse eius blanditiis, vel necessitatibus!</p>
+            <br><br>
+            <a href="#contacts"> <button aria-label="Get Recepies Form" class="recipies" style="width: 600px;">Get
+                    Recipies</button></a>
+        </div>
+    </div>
+    <div class="contacts" id="contacts">
+        <h2>Let's Get Cooking</h2>
+        <hr>
+        <form action="success.html">
+            <label for="name" aria-label="Name">Name:</label>
+            <input type="text" name="name" id="name" aria-labelledby`="Name"><br><br>
+
+            <label for="email" aria-label="Email">Email:</label>
+            <input type="email" name="email" id="email" aria-labelledby="Email" input box><br><br>
+
+            <label for="Phone" aria-label="Phone">Phone:</label>
+            <input type="tel" name="Phone" id="Phone" aria-labelledby="Phone"><br><br>
+
+            <label for="Recepie request" aria-label="Recepierequest">Recepie request:</label>
+            <textarea name="recepie request" rows="4" cols="50" placeholder="Enter your recipie request"
+                aria-labelledby="Recepierequest" id="Recepie request"></textarea><br><br>
+
+            <button class="form-submit" aria-label="submit form infomation">Submit</button>
+        </form>
+    </div>
+    <footer>
+        <div class="band" style="background-color: black;color:white;">
+            <div class="band-container">
+                &copy copyright
+            </div>
+        </div>
+        </div>
+    </footer>
+</body>
+
+</html>
